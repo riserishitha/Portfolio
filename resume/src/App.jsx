@@ -1,25 +1,14 @@
-import React, { useState } from 'react';
+import Navbar from "./Components/Navbar";
 
 function App() {
-  const [count, setCount] = useState(0);
-  
-  const handleClick = () => {
-    setCount(count + 1);
-  };
-  const decrement = () =>{
-    setCount(count -1);
-  }
-
   return (
-    <div style={{ textAlign: 'center', marginTop: '50px' }}>
-      <h1>Hello, React!</h1>
-      <p>You clicked the button {count} times.</p>
-      <button onClick={handleClick}>
-        INCREASE
-      </button>
-      <button onClick={decrement}>
-        DECREASE
-      </button>
+    <div>
+      <Navbar />
+      {/* Your other sections */}
+      <section id="home" className="h-screen bg-blue-100">Home</section>
+      <section id="about" className="h-screen bg-green-100">About</section>
+      <section id="projects" className="h-screen bg-yellow-100">Projects</section>
+      <section id="contact" className="h-screen bg-pink-100">Contact</section>
     </div>
   );
 }

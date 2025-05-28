@@ -1,14 +1,15 @@
 import Navbar from "./Components/Navbar";
+import "./App.css";
 
 function App() {
   return (
     <div>
       <Navbar />
       {/* Your other sections */}
-      <section id="home" className="h-screen bg-blue-100">Home</section>
-      <section id="about" className="h-screen bg-green-100">About</section>
-      <section id="projects" className="h-screen bg-yellow-100">Projects</section>
-      <section id="contact" className="h-screen bg-pink-100">Contact</section>
+      <section id="home" className="section home">Home</section>
+      <section id="about" className="section about">About</section>
+      <section id="projects" className="section projects">Projects</section>
+      <section id="contact" className="section contact">Contact</section>
     </div>
   );
 }

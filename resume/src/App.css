@@ -1,3 +1,100 @@
-/* @tailwind base;
-@tailwind components;
-@tailwind utilities; */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 50;
+}
+
+.navbar-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.menu-icon {
+  display: none;
+  cursor: pointer;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  color: #333;
+}
+
+.nav-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-links li {
+  margin: 0 10px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #555;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #007bff;
+}
+
+.desktop-only {
+  display: flex;
+}
+
+.mobile-only {
+  display: none;
+  flex-direction: column;
+  padding: 0 16px 16px;
+}
+/* App.css */
+
+/* ... include navbar styles here if not already added ... */
+
+.section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+/* Section-specific background colors */
+.home {
+  background-color: #bfdbfe; /* light blue */
+}
+
+.about {
+  background-color: #bbf7d0; /* light green */
+}
+
+.projects {
+  background-color: #fef9c3; /* light yellow */
+}
+
+.contact {
+  background-color: #fbcfe8; /* light pink */
+}

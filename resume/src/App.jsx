@@ -5,7 +5,6 @@ function App() {
   return (
     <div>
       <Navbar />
-      {/* Your other sections */}
       <section id="home" className="section home">Home</section>
       <section id="about" className="section about">About</section>
       <section id="projects" className="section projects">Projects</section>

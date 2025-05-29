@@ -69,9 +69,6 @@ body {
   flex-direction: column;
   padding: 0 16px 16px;
 }
-/* App.css */
-
-/* ... include navbar styles here if not already added ... */
 
 .section {
   height: 100vh;
@@ -82,19 +79,18 @@ body {
   font-weight: bold;
 }
 
-/* Section-specific background colors */
 .home {
-  background-color: #bfdbfe; /* light blue */
+  background-color: #bfdbfe;
 }
 
 .about {
-  background-color: #bbf7d0; /* light green */
+  background-color: #bbf7d0;
 }
 
 .projects {
-  background-color: #fef9c3; /* light yellow */
+  background-color: #fef9c3;
 }
 
 .contact {
-  background-color: #fbcfe8; /* light pink */
+  background-color: #fbcfe8;
 }

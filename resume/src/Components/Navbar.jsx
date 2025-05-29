@@ -2,14 +2,12 @@ import React, { useState } from "react";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
-
   const toggleMenu = () => setIsOpen(!isOpen);
 
   return (
     <nav className="navbar">
       <div className="navbar-container">
         <div className="logo">MyPortfolio</div>
-
         <div className="menu-icon" onClick={toggleMenu}>
           <svg
             className="icon"

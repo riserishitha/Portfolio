@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -34,19 +35,23 @@ const Navbar = () => {
           </svg>
         </div>
 
+        {/* Desktop Menu */}
         <ul className="nav-links desktop-only">
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#projects">Projects</a></li>
+          <li><Link to="/certificates">Certificates</Link></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
 
+      {/* Mobile Menu */}
       {isOpen && (
         <ul className="nav-links mobile-only">
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#projects">Projects</a></li>
+          <li><Link to="/certificates">Certificates</Link></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       )}

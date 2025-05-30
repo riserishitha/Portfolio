@@ -1,16 +1,24 @@
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./Components/Navbar";
-import "./App.css";
+import Certificates from "./Components/Certificates";
 
-function App() {
+const Home = () => (
+  <div id="home">
+    <h1>Welcome to My Portfolio</h1>
+    {/* Other sections like About, Projects, Contact can go here */}
+  </div>
+);
+
+const App = () => {
   return (
-    <div>
+    <Router>
       <Navbar />
-      <section id="home" className="section home">Home</section>
-      <section id="about" className="section about">About</section>
-      <section id="projects" className="section projects">Projects</section>
-      <section id="contact" className="section contact">Contact</section>
-    </div>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/certificates" element={<Certificates />} />
+      </Routes>
+    </Router>
   );
-}
+};
 
 export default App;

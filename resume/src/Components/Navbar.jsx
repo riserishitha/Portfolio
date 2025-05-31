@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
@@ -35,7 +35,6 @@ const Navbar = () => {
           </svg>
         </div>
 
-        {/* Desktop Menu */}
         <ul className="nav-links desktop-only">
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
@@ -45,7 +44,6 @@ const Navbar = () => {
         </ul>
       </div>
 
-      {/* Mobile Menu */}
       {isOpen && (
         <ul className="nav-links mobile-only">
           <li><a href="#home">Home</a></li>

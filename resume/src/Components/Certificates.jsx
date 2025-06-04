@@ -1,4 +1,3 @@
-
 const Certificates = () => {
   return (
     <div className="certificates-page">

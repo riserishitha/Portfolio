@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Navbar from "./Components/Navbar";
 import Certificates from "./Components/Certificates";
 
@@ -8,16 +8,16 @@ const Home = () => (
   </div>
 );
 
-const App = () => {
+function App() {
   return (
-    <Router>
+    <>
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/certificates" element={<Certificates />} />
       </Routes>
-    </Router>
+    </>
   );
-};
+}
 
 export default App;

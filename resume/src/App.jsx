@@ -1,28 +1,25 @@
-import { useState } from 'react';
+import Navbar from './Components/Navbar';
 import './App.css';
-import { RxHamburgerMenu, RxCross1 } from 'react-icons/rx';
 
 function App() {
-  const [menuOpen, setMenuOpen] = useState(false);
-
   return (
     <div className="app">
-      <header>
-        <div className="logo">MyPortfolio</div>
-        <nav className={menuOpen ? 'nav open' : 'nav'}>
-          <a href="#home">Home</a>
-          <a href="#about">About</a>
-          <a href="#services">Services</a>
-          <a href="#contact">Contact</a>
-        </nav>
-        <div className="menu-icon" onClick={() => setMenuOpen(!menuOpen)}>
-          {menuOpen ? <RxCross1 /> : <RxHamburgerMenu />}
-        </div>
-      </header>
-
-      <section id="home" className="hero">
+      <Navbar />
+      <section id="home" className="section">
         <h1>Welcome to My Portfolio</h1>
         <p>I’m a passionate developer ready to build amazing websites.</p>
+      </section>
+      <section id="about" className="section">
+        <h1>About Me</h1>
+        <p>I’m a web developer focused on building clean, responsive designs.</p>
+      </section>
+      <section id="services" className="section">
+        <h1>Services</h1>
+        <p>I offer full-stack web development and UI/UX design services.</p>
+      </section>
+      <section id="contact" className="section">
+        <h1>Contact</h1>
+        <p>Let’s work together! Reach me at myportfolio@email.com</p>
       </section>
     </div>
   );

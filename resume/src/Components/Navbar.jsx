@@ -5,22 +5,26 @@ const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const toggleMenu = () => {
-    setIsMenuOpen((prev) => !prev);
+    setIsMenuOpen(!isMenuOpen);
+  };
+
+  const closeMenu = () => {
+    setIsMenuOpen(false);
   };
 
   return (
     <nav className="navbar">
-      <div className="logo">MyWebsite</div>
+      <div className="logo">MyPortfolio</div>
 
-      <div className={`menu ${isMenuOpen ? 'open' : ''}`}>
-        <a href="#home" onClick={toggleMenu}>Home</a>
-        <a href="#about" onClick={toggleMenu}>About</a>
-        <a href="#services" onClick={toggleMenu}>Services</a>
-        <a href="#contact" onClick={toggleMenu}>Contact</a>
+      <div className={`nav-links ${isMenuOpen ? 'open' : ''}`}>
+        <a href="#home" onClick={closeMenu}>Home</a>
+        <a href="#about" onClick={closeMenu}>About</a>
+        <a href="#services" onClick={closeMenu}>Services</a>
+        <a href="#contact" onClick={closeMenu}>Contact</a>
       </div>
 
       <div className="menu-icon" onClick={toggleMenu}>
-        {isMenuOpen ? <RxCross1 className="icon" /> : <RxHamburgerMenu className="icon" />}
+        {isMenuOpen ? <RxCross1 /> : <RxHamburgerMenu />}
       </div>
     </nav>
   );

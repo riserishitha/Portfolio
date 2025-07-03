@@ -52,37 +52,12 @@ body {
   color: #007BFF;
 }
 
-/* Mobile responsive */
 .menu-icon {
   display: none;
   font-size: 1.5rem;
   cursor: pointer;
 }
 
-@media (max-width: 768px) {
-  .nav-links {
-    position: absolute;
-    top: 60px;
-    left: 0;
-    background-color: #ffffff;
-    width: 100%;
-    flex-direction: column;
-    align-items: center;
-    display: none;
-    padding: 1rem 0;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  }
-
-  .nav-links.open {
-    display: flex;
-  }
-
-  .menu-icon {
-    display: block;
-  }
-}
-
-/* Section styling */
 .section {
   height: 100vh;
   padding-top: 100px; /* to avoid content hiding behind navbar */

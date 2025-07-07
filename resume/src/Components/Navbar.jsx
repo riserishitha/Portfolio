@@ -21,6 +21,15 @@ const Navbar = () => {
         <a href="#about" onClick={closeMenu}>About</a>
         <a href="#services" onClick={closeMenu}>Services</a>
         <a href="#contact" onClick={closeMenu}>Contact</a>
+
+        <a
+          href="/99230041299_RISHITHA NALLAPUREDDY.png"
+          target="_blank"
+          rel="noopener noreferrer"
+          onClick={closeMenu}
+        >
+          Certificates
+        </a>
       </div>
 
       <div className="menu-icon" onClick={toggleMenu}>

@@ -1,4 +1,3 @@
-
 const certificateFiles = [
   "99230041299_RISHITHA NALLAPUREDDY.png",
   "CAN_37428693_4890318-1.png",

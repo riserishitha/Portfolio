@@ -18,8 +18,7 @@ const Navbar = () => {
       <div className="logo">MyPortfolio</div>
       <div className={`nav-links ${isMenuOpen ? 'open' : ''}`}>
         <Link to="/about" onClick={closeMenu}> </Link>
-        <a href="/services" onClick={closeMenu}>Services</a>
-        <a href="/contact" onClick={closeMenu}>Contact</a>
+        <Link to="/contact" onClick={closeMenu}></Link>
         <Link to="/certificates" onClick={closeMenu}>Certificates</Link>
       </div>
 

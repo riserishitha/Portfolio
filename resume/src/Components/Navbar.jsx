@@ -1,11 +1,8 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { RxHamburgerMenu, RxCross1 } from 'react-icons/rx';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-
-  const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
   const closeMenu = () => setIsMenuOpen(false);
 
   return (
@@ -17,10 +14,6 @@ const Navbar = () => {
           <Link to="/certificates" onClick={closeMenu}>Certificates</Link>
           <Link to="/contact" onClick={closeMenu}>Contact</Link>
         </div>
-
-        <div className="menu-icon" onClick={toggleMenu}>
-          {isMenuOpen ? <RxCross1 /> : <RxHamburgerMenu />}
-        </div>
       </nav>
 
       <section className="hero">
@@ -30,8 +23,13 @@ const Navbar = () => {
           <h2>Software Developer</h2>
 
           <div className="hero-buttons">
-            {/* <button className="primary-btn">Got a project?</button> */}
-            <button className="outline-btn">My Resume</button>
+            <a
+  href="https://docs.google.com/document/d/1LDSz1Vjd0bBdiH3Lq2ijBFryV5IqLgW3U2gdc_MeBmY/edit?usp=sharing"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <button className="outline-btn">My Resume</button>
+</a>
           </div>
         </div>
 

@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
-  background-color: #0f0f0f;
+  background-color: #cca7a7;
   color: white;
 }
 
@@ -146,6 +146,18 @@ body {
   line-height: 1.6;
   margin-bottom: 12px;
 }
+
+/* div {
+    padding: 20px;
+    line-height: 2;
+}
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+} */
 
 @media (max-width: 768px) {
   .nav-links {

@@ -5,7 +5,6 @@ const About = () => {
       <h1 className="about-heading">This is Rishitha Nallapureddy.</h1>
       <p className="about-text">I am a Computer Science Engineering student at KL University, passionate about web development and technology.</p>
       <p className="about-text">I have a background in MPC (Maths, Physics, Chemistry) and I'm currently exploring the MERN stack.</p>
-      <p className="about-text">I love creating intuitive and responsive user interfaces, and I recently built a spice e-commerce website using the MERN stack.</p>
     </div>
   );
 };

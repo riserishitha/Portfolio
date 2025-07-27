@@ -7,7 +7,8 @@ const certificateFiles = [
   "Rishitha n.png",
   "RISHITHA NALLAPUREDDY – Buildathon Certificate-1.png",
   "Rishitha(MIT).jpg",
-  "Software_Development_Certificate-1.png"
+  "Software_Development_Certificate-1.png",
+  "Apachespark_certificate-1.png"
 ];
 
 const Certificates = () => {

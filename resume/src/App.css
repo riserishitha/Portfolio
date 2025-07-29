@@ -101,6 +101,7 @@ body {
 
 .certificates-grid {
   display: grid;
+  color: black;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 20px;
   justify-items: center;
@@ -146,18 +147,6 @@ body {
   line-height: 1.6;
   margin-bottom: 12px;
 }
-
-/* div {
-    padding: 20px;
-    line-height: 2;
-}
-a {
-    color: #007bff;
-    text-decoration: none;
-}
-a:hover {
-    text-decoration: underline;
-} */
 
 @media (max-width: 768px) {
   .nav-links {

@@ -23,6 +23,7 @@ const Certificates = () => {
               alt={`Certificate ${index + 1}`}
               className="certificate-img"
             />
+            <h6>This are my things </h6>
           </div>
         ))}
       </div>

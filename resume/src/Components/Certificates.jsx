@@ -11,7 +11,7 @@ const certificateData = [
   },
   {
     file: "Certificate (1)-1.png",
-    title: "Python Programming",
+    title: "Python Programming language",
     description: "Completed beginner to intermediate level Python programming course."
   },
   {

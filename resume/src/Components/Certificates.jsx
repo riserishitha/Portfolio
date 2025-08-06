@@ -1,8 +1,8 @@
 const certificateData = [
   {
     file: "99230041299_RISHITHA NALLAPUREDDY.png",
-    title: "Java Full Stack Developer",
-    description: "Completed a full-stack Java training program covering Spring Boot, React, and SQL."
+    title: "Workshop in GenAI",
+    description: "Participated in a workshop conducted by GDG on campus where we were given breif about kubernetes, GenAI and few more things. Overall, it was a great experience and also i feel happy to be part of that."
   },
   {
     file: "CAN_37428693_4890318-1.png",

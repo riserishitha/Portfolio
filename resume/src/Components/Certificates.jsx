@@ -6,8 +6,8 @@ const certificateData = [
   },
   {
     file: "CAN_37428693_4890318-1.png",
-    title: "AWS Fundamentals",
-    description: "Introduction to core AWS services including EC2, S3, Lambda, and IAM."
+    title: "Skill India(Data Science)",
+    description: "Completed a course where i was taught basics of Data science. Where i used in excel files and also capstone project which reflects my understanding for Data Science."
   },
   {
     file: "Certificate (1)-1.png",
@@ -47,7 +47,7 @@ const certificateData = [
   {
     file: "Apachespark_certificate-1.png",
     title: "Apache Spark with PySpark",
-    description: "Completed PySpark training for big data processing and distributed computing."
+    description: "Completed PySpark training for big data processing and distributed computing. Learned about spark session and also RDBMS."
   }
 ];
 

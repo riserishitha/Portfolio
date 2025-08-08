@@ -11,8 +11,8 @@ const certificateData = [
   },
   {
     file: "Certificate (1)-1.png",
-    title: "Python Programming language",
-    description: "Completed beginner to intermediate level Python programming course."
+    title: "PowerBI Certificate",
+    description: "Completed certification course in PowerBI where i was taught about basics of powerBI."
   },
   {
     file: "Cloud_Computing_Certificate-1.png",

@@ -17,7 +17,7 @@ const certificateData = [
   {
     file: "Cloud_Computing_Certificate-1.png",
     title: "Cloud Computing Basics and along with the quiz things",
-    description: "Gained foundational knowledge on cloud infrastructure, deployment models, and SaaS/IaaS."
+    description: "Gained foundational knowledge on cloud infrastructure, deployment models. I was so grateful for learning about this."
   },
   {
     file: "Data Science Training - Certificate of Completion-1.png",

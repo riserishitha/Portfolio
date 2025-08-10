@@ -26,8 +26,8 @@ const certificateData = [
   },
   {
     file: "Rishitha n.png",
-    title: "UI/UX Design Workshop",
-    description: "Participated in a hands-on UI/UX workshop focused on Figma and user-centered design."
+    title: "Build with India",
+    description: "Participated in SIH(smart india hackerthon) with my team and secured 3rd prize in the final round and 1st prize in 3rd round. Overall, it was a great experience to be part of that fest."
   },
   {
     file: "RISHITHA NALLAPUREDDY – Buildathon Certificate-1.png",

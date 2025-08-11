@@ -37,7 +37,7 @@ const certificateData = [
   {
     file: "Rishitha(MIT).jpg",
     title: "MIT Hackathon Participation",
-    description: "Collaborated with a team to build a web-based health monitoring system."
+    description: "Collaborated with a team to build a web-based health monitoring system. Had a great time visiting MIT bengaluru campus and also meet with so amny people who were so fun to interact with "
   },
   {
     file: "Software_Development_Certificate-1.png",

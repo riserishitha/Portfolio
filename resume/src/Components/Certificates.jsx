@@ -41,7 +41,7 @@ const certificateData = [
   },
   {
     file: "Software_Development_Certificate-1.png",
-    title: "Software Development Basics",
+    title: "Software Development",
     description: "Learned key software engineering practices including Git, agile, and testing."
   },
   {
